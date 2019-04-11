@@ -7,7 +7,7 @@ int main(void){
   int is_looping = 1; // sentinel for while()
   while(is_looping == 1){
     count++;
-    if(count > 10000000)  is_looping = 0;
+    if(count >= 10000000)  is_looping = 0;
   }
 
   printf("count=%d\n", count);
